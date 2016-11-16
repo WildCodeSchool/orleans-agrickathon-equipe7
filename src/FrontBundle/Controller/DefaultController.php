@@ -41,13 +41,7 @@ class DefaultController extends Controller
     }
 
 
-	/**
-	 * @Route("/Admin")
-	 */
-	public function AdminAction()
-	{
-		return $this->render('FrontBundle:Default:Admin.html.twig');
-	}
+
 
 }
 
