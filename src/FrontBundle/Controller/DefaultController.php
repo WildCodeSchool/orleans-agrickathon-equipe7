@@ -39,7 +39,13 @@ class DefaultController extends Controller
     {
         return $this->render('FrontBundle:Default:abonnement.html.twig');
     }
-
+    /**
+     * @Route("/soumettre")
+     */
+    public function soumettreAction()
+    {
+        return $this->render('FrontBundle:Default:soumettre.html.twig');
+    }
 
 
 
