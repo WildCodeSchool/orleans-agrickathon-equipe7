@@ -23,6 +23,13 @@ class DefaultController extends Controller
 	{
 		return $this->render('FrontBundle:Default:fondamentaux.html.twig');
 	}
+    /**
+     * @Route("/contact")
+     */
+    public function contactAction()
+    {
+        return $this->render('FrontBundle:Default:contact.html.twig');
+    }
 }
 
 
