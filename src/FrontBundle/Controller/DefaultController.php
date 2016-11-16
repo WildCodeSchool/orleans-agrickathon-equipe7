@@ -18,7 +18,7 @@ class DefaultController extends Controller
 	/**
 	 * @Route("/fondamentaux")
 	 */
-	public function indexAction()
+	public function fondamentauxAction()
 	{
 		return $this->render('FrontBundle:Default:fondamentaux.html.twig');
 	}
