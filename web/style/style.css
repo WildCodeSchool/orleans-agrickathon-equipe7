@@ -1,3 +1,18 @@
-form{
+#recherche{
     text-align: center;
+}
+.thumbnail {
+    position: relative;
+    text-align: center;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+.titretuile{
+    background-color: white;
+    font-size: 50px;
 }
