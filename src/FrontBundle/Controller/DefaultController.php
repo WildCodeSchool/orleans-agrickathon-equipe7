@@ -30,6 +30,14 @@ class DefaultController extends Controller
     {
         return $this->render('FrontBundle:Default:contact.html.twig');
     }
+
+	/**
+	 * @Route("/Admin")
+	 */
+	public function AdminAction()
+	{
+		return $this->render('FrontBundle:Default:Admin.html.twig');
+	}
 }
 
 
