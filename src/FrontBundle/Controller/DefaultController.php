@@ -14,4 +14,14 @@ class DefaultController extends Controller
     {
         return $this->render('FrontBundle:Default:index.html.twig');
     }
+
+	/**
+	 * @Route("/fondamentaux")
+	 */
+	public function indexAction()
+	{
+		return $this->render('FrontBundle:Default:fondamentaux.html.twig');
+	}
 }
+
+
