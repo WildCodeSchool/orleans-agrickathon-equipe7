@@ -51,3 +51,87 @@
         </div>
     </div>
 </header>
+<div class="container well">
+    <div class="form-group">
+        <form action=mailto:votrenom@provider.com" method="post">
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <label>
+                        <span>Nom*  : </span>
+                        <input type="text" placeholder="Entrez votre nom" name="name" id="name" required autofocus>
+                    </label> <br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <label>
+                        <span>Prenom: </span>
+                        <input type="text" placeholder="Entrez votre prénom" name="prenom" id="name" >
+                    </label> <br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <label>
+                        <span>profession* : </span>
+                        <input type="text" placeholder="Entrez votre nom" name="name" id="name" required autofocus>
+                    </label> <br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <label>
+                        <span>N° SIRET*: </span>
+                        <input type="text" placeholder="Entrez votre nom" name="name" id="name" required autofocus>
+                    </label> <br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <label>
+                        <span>Entreprise* : </span>
+                        <input type="text" placeholder="Entrez votre nom" name="name" id="name" required autofocus>
+                    </label> <br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <label>
+                        <span>Email* : </span>
+                        <input type="email" placeholder="Votre-email@gmail.com" name="email" id="email" required>
+                    </label><br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <label>
+                        <span>Thème:</span>
+                        <textarea name="sujet" id="sujet" rows="1" cols="50" required></textarea>
+                    </label><br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <label>
+                        <span>Contenu*:</span>
+                        <textarea name="monmessage" id="monmessage" rows="4" cols="50" required></textarea>
+                    </label><br/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <form method="POST" action="upload.php" enctype="multipart/form-data">
+                        <input type="hidden" name="MAX_FILE_SIZE" value="100000"> Fichier : <input type="file" name="avatar">
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-offset-4 col-sm-4">
+                    <button type="button" class="btn btn-success">Envoyer</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+</section>
