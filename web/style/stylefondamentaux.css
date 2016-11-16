@@ -6,3 +6,7 @@
     text-align: center;
 }
 
+p.titre {
+    font-weight: bold;
+    font-size: 25px;
+}
