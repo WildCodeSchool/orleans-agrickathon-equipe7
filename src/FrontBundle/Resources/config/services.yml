@@ -2,3 +2,12 @@ services:
 #    front.example:
 #        class: FrontBundle\Example
 #        arguments: ["@service_id", "plain_value", "%parameter%"]
+services:
+    app.admin.articles:
+        class: FrontBundle\Admin\ArticlesAdmin
+        tags:
+            - { name: sonata.admin, manager_type: orm, group: "Content", label: "Articles" }
+        arguments:
+            - ~
+            - FrontBundle\Entity\Articles
+            - ~

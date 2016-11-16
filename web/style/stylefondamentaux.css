@@ -1,6 +1,4 @@
-.menu {
-    height: 150px;
-}
+
 
 #recherche {
     text-align: center;
@@ -9,4 +7,24 @@
 p.titre {
     font-weight: bold;
     font-size: 25px;
+}
+
+footer{
+    background-color: #FFFAB7;
+}
+
+.textfooter{
+    text-align: center;
+}
+div.bordure {
+
+}
+.fa-twitter{
+    padding-left:20px;
+}
+.fa-facebook{
+    padding-left:100px;
+}
+.imagefooter{
+    padding-left:130px;
 }

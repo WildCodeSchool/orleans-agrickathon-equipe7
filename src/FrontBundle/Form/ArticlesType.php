@@ -2,6 +2,7 @@
 
 namespace FrontBundle\Form;
 
+use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
@@ -13,7 +14,16 @@ class ArticlesType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('auteur')->add('sujet')->add('date')->add('contenu')->add('source')->add('titre')->add('catégorie')->add('rubrique')        ;
+        $builder->add('auteur', EntityType::class, array('class'=>'FrontBundle/Entity/Articles',
+	    'choice_label'=>'sujet',))
+	        ->add('sujet')
+	        ->add('date')
+	        ->add('contenu')
+	        ->add('source')
+	        ->add('titre')
+	        ->add('catégorie')
+	        ->add('rubrique')
+        ;
     }
     
     /**
