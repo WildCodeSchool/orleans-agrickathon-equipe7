@@ -30,6 +30,13 @@ class DefaultController extends Controller
     {
         return $this->render('FrontBundle:Default:contact.html.twig');
     }
+    /**
+     * @Route("/abonnement")
+     */
+    public function abonnementAction()
+    {
+        return $this->render('FrontBundle:Default:abonnement.html.twig');
+    }
 }
 
 
