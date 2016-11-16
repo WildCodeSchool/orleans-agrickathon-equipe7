@@ -1,18 +1,27 @@
 #recherche{
-    text-align: center;
+    text-align: right;
 }
-.thumbnail {
-    position: relative;
-    text-align: center;
-}
+.logo{
+    height:95%;
+    width: 95%;
 
-.caption {
-    position: absolute;
-    top: 45%;
-    left: 0;
+}
+.imagetitre{
+    height:100%;
     width: 100%;
 }
-.titretuile{
-    background-color: white;
+body{
+    background-color: #F2F2F2;
+}
+footer{
+    background-color: #FFFAB7;
+}
+.textfooter{
+    text-align: center;
+}
+div.bordure {
 
+}
+.fa-twitter{
+    padding-left:50px;
 }
