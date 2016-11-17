@@ -43,7 +43,7 @@ footer{
     padding-left:130px;
 }
 .fa-at{
-    padding-left:95px;
+    padding-left:60px;
 }
 .fa{
     padding-right: 8px;
@@ -63,4 +63,7 @@ a{
 }
 .textfooter2{
     padding-left:30px;
+}
+.badge{
+    background-color: red;
 }
