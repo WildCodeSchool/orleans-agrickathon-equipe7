@@ -7,6 +7,8 @@ p.titre {
 p {
     text-align: center;
     text-align:justify;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 h4 {
@@ -80,6 +82,10 @@ div.bordure {
     opacity: 0.8;
 }
 
+.thumbnail:hover{
+    background-color: grey ;
+    opacity: 1;
+}
 h1 {
     font-weight: bold;
     color: white;
@@ -95,7 +101,12 @@ h1 {
     color: #FFFAB7;
     padding-top: 105px;
 }
+
 .logomodalfooter{
     text-align: left;
+
+
+img {
+    height: 150px;
 
 }
