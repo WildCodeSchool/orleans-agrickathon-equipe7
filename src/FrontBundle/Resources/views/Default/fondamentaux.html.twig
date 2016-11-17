@@ -301,11 +301,15 @@
 
                                             </div>
                                             <div class="modal-footer">
-                                            <a class="btn btn-default" href="#" role="button">Avis</a>
-                                                <a href="https://www.facebook.com/"><i class="fa fa-facebook-official
-                                                 fa-3x" aria-hidden="true"></i></a>
-                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
+                                                <div class="row">
+                                                    <div class="logomodalfooter">
+                                                        <a href="https://www.twitter.com/"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+                                                        <a href="https://www.facebook.com/"><i class="fa fa-facebook-official
+                                                         fa-3x " aria-hidden="true"></i></a>
+                                                    </div>
+                                                    <a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#myModal25">Avis</a>
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -462,6 +466,60 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="modal fade" id="myModal25" tabindex="-1" role="dialog"
+                                         aria-labelledby="myModalLabel">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+
+                                                <div class="modal-body">
+                                                    <form action=mailto:votrenom@provider.com" method="post">
+                                                        <div class="row">
+                                                            <div class="col-sm-offset-4 col-sm-4">
+                                                                <label>
+                                                                    <h3 class="text-center">Donner nous votre avis !</h3>
+                                                                    <span>Email* : </span>
+                                                                    <input type="email" placeholder="Votre-email@gmail.com" name="email" id="email" required>
+                                                                </label><br/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-offset-4 col-sm-4">
+                                                                <label>
+                                                                    <span>Nom*  : </span>
+                                                                    <input type="text" placeholder="Entrez votre nom" name="name" id="name" required autofocus>
+                                                                </label> <br/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-offset-4 col-sm-4">
+                                                                <label>
+                                                                    <span>Prenom: </span>
+                                                                    <input type="text" placeholder="Entrez votre prénom" name="prenom" id="name" >
+                                                                </label> <br/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-offset-4 col-sm-4">
+                                                                <label>
+                                                                    <span>Contenu*:</span>
+                                                                    <textarea name="monmessage" id="monmessage" rows="4" cols="30" required></textarea>
+                                                                </label><br/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-offset-4 col-sm-4">
+                                                                <button type="button" class="btn btn-success">Envoyer</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
 </section>
 <footer>
     <div class="container-fluid">
