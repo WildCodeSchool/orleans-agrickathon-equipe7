@@ -1,7 +1,7 @@
 
 p.titre {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 p {
@@ -98,6 +98,7 @@ h1 {
 .modal-content {
     opacity: 0.9;
     background-color: grey;
+    font-size: 20px;
 }
 
 .titre {
@@ -108,8 +109,7 @@ h1 {
 .logomodalfooter{
     text-align: left;
 
-
-img {
+.vignette{
     height: 150px;
 
 }
