@@ -43,8 +43,24 @@ footer{
     padding-left:130px;
 }
 .fa-at{
-    padding-left:110px;
+    padding-left:95px;
+}
+.fa{
+    padding-right: 8px;
+    padding-top:10px;
 }
 a{
     color: inherit;
+}
+.well{
+    min-height: 600px;
+}
+.imagefooter{
+    padding-top: 15px;
+}
+.imagefooter2{
+    padding-left:110px;
+}
+.textfooter2{
+    padding-left:30px;
 }
