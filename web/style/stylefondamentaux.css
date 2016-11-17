@@ -1,13 +1,38 @@
 
 p.titre {
     font-weight: bold;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    text-align:justify;
+}
+
+h4 {
+    font-weight: bold;
     font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #recherche{
     text-align: right;
-
 }
+
+a:link
+{
+    text-decoration:none;
+}
+
+a {
+    color: white; /*par exemple, pour le comportement standart*/
+}
+
+a:hover {
+    color: white; /* pour le passage de la souris*/
+}
+
 .logo{
     height:95%;
     width: 95%;
@@ -19,6 +44,11 @@ p.titre {
 }
 body{
     background-color: #F2F2F2;
+}
+section {
+    background-image: url("../Images/bien etre animal poules.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer{
@@ -46,5 +76,22 @@ div.bordure {
 }
 
 .thumbnail{
-    background-color: lightgrey;
+    background-color: #1a2226 ;
+    opacity: 0.8;
+}
+
+h1 {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.modal-content {
+    opacity: 0.9;
+    background-color: grey;
+}
+
+.titre {
+    color: #FFFAB7;
+    padding-top: 105px;
 }

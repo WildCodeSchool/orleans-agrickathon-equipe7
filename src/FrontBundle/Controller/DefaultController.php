@@ -52,7 +52,7 @@ class DefaultController extends Controller
 	 */
 	public function reboursAction()
 	{
-		return $this->render('Front:Default:rebours');
+		return $this->render('Front:Default:rebours.html.twig');
 	}
 
 
