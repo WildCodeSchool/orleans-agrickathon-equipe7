@@ -14,43 +14,46 @@
     <title>Page d'accueil</title>
 </head>
 <body>
-<header >
+<header>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-offset-3 col-md-6 ">
-                <form id="recherche" action="POST" >
-                    <input type="text">
-                    <button>Valider</button>
-                </form>
+            <div class="col-md-offset-3 col-md-6">
+                <a href="index"><img class="logo" src="Images/logo.png" alt=""><a/>
             </div>
-            <div class=" col-md-offset-2 col-md-1 dropdown ">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    Notifications
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="#">Suggestions</a></li>
-                    <li><a href="#">Contactez nous</a></li>
-                    <li role="separator" class="divider"></li>
-                    <li><a href="#">Liens séparés</a></li>
-                </ul>
+            <div class="col-md-offset-1 col-md-2">
+                <a href="abonnement"><i class="fa fa-at fa-3x" aria-hidden="true"></i> </a>
+                <a href="contact"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i> </a>
+                <a href="soumettre"><i class="fa fa-comments fa-3x" aria-hidden="true"></i> </a>
+                <i class="fa fa-bell fa-3x" aria-hidden="true"></i>
+
             </div>
         </div>
         <div class="row">
-            <h1 class="bg-info text-center">
-                Les sujets du moments
-            </h1>
+            <div class="col-md-offset-8 col-md-4 ">
+                <form id="recherche" action="POST" >
+                    <input type="text" id="search" name="search"  />
+                    <button><i class="fa fa-search " aria-hidden="true"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 bordure">
+
+            </div>
+            <div class="col-md-4">
+                <h1 class=" accroche text-center">
+                    L'Agro actualités, sans préjugés
+                </h1>
+            </div>
+            <div class="col-md-4 bordure">
+
+            </div>
         </div>
     </div>
 </header>
 <section>
-    <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
-        </ol>
+    <!-- carousel 1-->
+    <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel" data-interval="false">
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
@@ -58,29 +61,61 @@
                 <div class="container-fluid menu">
                     <div class="row">
                         <div class="col-sm-4 col-md-3" >
-                            <a href="#" class="thumbnail">
-                                <img src="../Images/OAF.png" class="center-block" alt="..." data-toggle="modal" data-target="#myModal">
-
-                            </a>
+                            <a href="#" class="thumbnail"><div class="tuile">
+                                <h1>FONDAMENTAUX</h1>
+                                </div></a>
                         </div>
 
                         <div class="col-sm-4 col-md-3" >
-                            <a href="#" class="thumbnail">
-                                <img src="../Images/OAF.png" class="center-block" alt="..." data-toggle="modal"
-                                     data-target="#myModal2">
+                            <a href="#" class="thumbnail"><div class="tuile">
+                                    <h1>Définition</h1>
+                                <p data-toggle="modal" data-target="#myModal">QU’EST-CE QUE LE BIEN-ÊTRE
+                                    ANIMAL
+                                    ?<br/>Le bien-être animal peut être un concept difficile à comprendre
+                                    parce qu’il n’a pas de définition unique et peut prendre un sens
+                                    différent d’une personne à l’autre. [...]</p></div>
                             </a>
                         </div>
-                        <div class="col-sm-4 col-md-3" >
-                            <a href="#" class="thumbnail">
-                                <img src="../Images/OAF.png" class="center-block" alt="..." data-toggle="modal"
-                                     data-target="#myModal3">
-                            </a>
+                        <div class="col-sm-4 col-md-3" data-toggle="modal" data-target="#myModal3" >
+                            <a href="#" class="thumbnail"><div class="tuile">
+                                    <h1>Chiffres Clés</h1>
+                                <p></p>
+                                </div></a>
                         </div>
-                <div class="carousel-caption">
-
+                        <div class="col-sm-4 col-md-3" data-toggle="modal" data-target="#myModal4" >
+                            <a href="#" class="thumbnail"><div class="tuile">
+                                    <h1>Quelques faits</h1>
+                                    <p></p>
+                                </div></a>
+                        </div>
+                        <div class="carousel-caption"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container-fluid">
+                    <div class="col-sm-4 col-md-3" data-toggle="modal" data-target="#myModal4" >
+                        <a href="#" class="thumbnail"><div class="tuile">
+                                <h1>Sources</h1>
+                                <p></p>
+                            </div></a>
+                    </div>
+                    <div class="col-sm-4 col-md-3" data-toggle="modal" data-target="#myModal4" >
+                        <a href="#" class="thumbnail"><div class="tuile">
+                                <h1>Approche Scientifique</h1>
+                                <p></p>
+                            </div></a>
+                    </div>
+                    <div class="col-sm-4 col-md-3" data-toggle="modal" data-target="#myModal4" >
+                        <a href="#" class="thumbnail"><div class="tuile">
+                                <h1>Approche Historique</h1>
+                                <p></p>
+                            </div></a>
+                    </div>
                 </div>
             </div>
         </div>
+
 
                 <!-- Controls -->
                 <a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
@@ -91,15 +126,10 @@
                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-            </div>
+    </div>
+                <!-- Carousel2 -->
+                <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel" data-interval="false">
 
-                <div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic2" data-slide-to="2"></li>
-                    </ol>
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
@@ -107,30 +137,60 @@
                             <div class="container-fluid menu">
                                 <div class="row">
                                     <div class="col-sm-4 col-md-3" >
-                                        <a href="#" class="thumbnail">
-                                            <img src="../Images/OAF.png" class="center-block" alt="..."
-                                                 data-toggle="modal" data-target="#myModal4">
-
-                                        </a>
+                                        <a href="#" class="thumbnail"><div class="tuile">
+                                                <h1>TRIBUNE</h1>
+                                            </div></a>
                                     </div>
 
                                     <div class="col-sm-4 col-md-3" >
-                                        <a href="#" class="thumbnail">
-                                            <img src="../Images/OAF.png" class="center-block" alt="..." data-toggle="modal"
-                                                 data-target="#myModal5">
+                                        <a href="#" class="thumbnail"><div class="tuile">
+                                                <h1>Article</h1>
+                                                <p data-toggle="modal" data-target="#myModal">QU’EST-CE QUE LE BIEN-ÊTRE
+                                                    ANIMAL
+                                                    ?<br/>Le bien-être animal peut être un concept difficile à comprendre
+                                                    parce qu’il n’a pas de définition unique et peut prendre un sens
+                                                    différent d’une personne à l’autre. [...]</p></div>
                                         </a>
                                     </div>
-                                    <div class="col-sm-4 col-md-3" >
-                                        <a href="#" class="thumbnail">
-                                            <img src="../Images/OAF.png" class="center-block" alt="..." data-toggle="modal"
-                                                 data-target="#myModal6">
-                                        </a>
+                                    <div class="col-sm-4 col-md-3" data-toggle="modal" data-target="#myModal3" >
+                                        <a href="#" class="thumbnail"><div class="tuile">
+                                                <h1>Article</h1>
+                                                <p></p>
+                                            </div></a>
                                     </div>
-                                    <div class="carousel-caption">
-
+                                    <div class="col-sm-4 col-md-3" data-toggle="modal" data-target="#myModal4" >
+                                        <a href="#" class="thumbnail"><div class="tuile">
+                                                <h1>Article</h1>
+                                                <p></p>
+                                            </div></a>
                                     </div>
+                                    <div class="carousel-caption"></div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="item">
+                            <div class="container-fluid">
+                                <div class="col-sm-4 col-md-3" data-toggle="modal" data-target="#myModal4" >
+                                    <a href="#" class="thumbnail"><div class="tuile">
+                                            <h1>Article</h1>
+                                            <p></p>
+                                        </div></a>
+                                </div>
+                                <div class="col-sm-4 col-md-3" data-toggle="modal" data-target="#myModal4" >
+                                    <a href="#" class="thumbnail"><div class="tuile">
+                                            <h1>Article</h1>
+                                            <p></p>
+                                        </div></a>
+                                </div>
+                                <div class="col-sm-4 col-md-3" data-toggle="modal" data-target="#myModal4" >
+                                    <a href="#" class="thumbnail"><div class="tuile">
+                                            <h1>Article</h1>
+                                            <p></p>
+                                        </div></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                             <!-- Controls -->
                             <a class="left carousel-control" href="#carousel-example-generic2" role="button"
                                data-slide="prev">
@@ -142,15 +202,9 @@
                                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                                 <span class="sr-only">Next</span>
                             </a>
-                        </div>
-
-                            <div id="carousel-example-generic3" class="carousel slide" data-ride="carousel">
-                                <!-- Indicators -->
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carousel-example-generic3" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel-example-generic3" data-slide-to="1"></li>
-                                    <li data-target="#carousel-example-generic3" data-slide-to="2"></li>
-                                </ol>
+                </div>
+                            <!-- Carousel3 -->
+                            <div id="carousel-example-generic3" class="carousel slide" data-ride="carousel" data-interval="false">
 
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner" role="listbox">
@@ -158,41 +212,71 @@
                                         <div class="container-fluid menu">
                                             <div class="row">
                                                 <div class="col-sm-4 col-md-3" >
-                                                    <a href="#" class="thumbnail">
-                                                        <img src="../Images/OAF.png" class="center-block" alt="..."
-                                                             data-toggle="modal" data-target="#myModal7">
-
-                                                    </a>
+                                                    <a href="#" class="thumbnail"><div class="tuile">
+                                                            <h1>PRESSE</h1>
+                                                        </div></a>
                                                 </div>
 
                                                 <div class="col-sm-4 col-md-3" >
-                                                    <a href="#" class="thumbnail">
-                                                        <img src="../Images/OAF.png" class="center-block" alt="..." data-toggle="modal"
-                                                             data-target="#myModal8">
+                                                    <a href="#" class="thumbnail"><div class="tuile">
+                                                            <h1>Article</h1>
+                                                            <p data-toggle="modal" data-target="#myModal">QU’EST-CE QUE LE BIEN-ÊTRE
+                                                                ANIMAL
+                                                                ?<br/>Le bien-être animal peut être un concept difficile à comprendre
+                                                                parce qu’il n’a pas de définition unique et peut prendre un sens
+                                                                différent d’une personne à l’autre. [...]</p></div>
                                                     </a>
                                                 </div>
-                                                <div class="col-sm-4 col-md-3" >
-                                                    <a href="#" class="thumbnail">
-                                                        <img src="../Images/OAF.png" class="center-block" alt="..." data-toggle="modal"
-                                                             data-target="#myModal9">
-                                                    </a>
+                                                <div class="col-sm-4 col-md-3" data-toggle="modal" data-target="#myModal3" >
+                                                    <a href="#" class="thumbnail"><div class="tuile">
+                                                            <h1>Article</h1>
+                                                            <p></p>
+                                                        </div></a>
                                                 </div>
-                                                <div class="carousel-caption">
-
+                                                <div class="col-sm-4 col-md-3" data-toggle="modal" data-target="#myModal4" >
+                                                    <a href="#" class="thumbnail"><div class="tuile">
+                                                            <h1>Article</h1>
+                                                            <p></p>
+                                                        </div></a>
                                                 </div>
+                                                <div class="carousel-caption"></div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="container-fluid">
+                                            <div class="col-sm-4 col-md-3" data-toggle="modal" data-target="#myModal4" >
+                                                <a href="#" class="thumbnail"><div class="tuile">
+                                                        <h1>Article</h1>
+                                                        <p></p>
+                                                    </div></a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-3" data-toggle="modal" data-target="#myModal4" >
+                                                <a href="#" class="thumbnail"><div class="tuile">
+                                                        <h1>Article</h1>
+                                                        <p></p>
+                                                    </div></a>
+                                            </div>
+                                            <div class="col-sm-4 col-md-3" data-toggle="modal" data-target="#myModal4" >
+                                                <a href="#" class="thumbnail"><div class="tuile">
+                                                        <h1>Article</h1>
+                                                        <p></p>
+                                                    </div></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic3" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic3" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+                                        <!-- Controls -->
+                                        <a class="left carousel-control" href="#carousel-example-generic3" role="button" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#carousel-example-generic3" role="button" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                            </div>
                                 <!-- Modal -->
                                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                                     <div class="modal-dialog" role="document">
