@@ -105,10 +105,12 @@ h1 {
     padding-top: 105px;
 }
 
-.logomodalfooter{
-    text-align: left;
-
-
 img {
     height: 150px;
+}
+.icone{
+    color: black;
+}
+#optionsRadios2{
+    padding-top: 5px;
 }

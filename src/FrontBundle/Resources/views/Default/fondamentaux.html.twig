@@ -21,9 +21,9 @@
                 <a href="index"><img class="logo" src="Images/logo.png" alt=""><a/>
             </div>
             <div class="col-md-offset-1 col-md-2">
-                <a href="abonnement"><i class="fa fa-at fa-3x" aria-hidden="true"></i> </a>
-                <a href="contact"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i> </a>
-                <a href="soumettre"><i class="fa fa-comments fa-3x" aria-hidden="true"></i> </a>
+                <a href="abonnement"><i class=" icone fa fa-at fa-3x" aria-hidden="true"></i> </a>
+                <a href="contact"><i class=" icone fa fa-envelope fa-3x" aria-hidden="true"></i> </a>
+                <a href="soumettre"><i class=" icone fa fa-comments fa-3x" aria-hidden="true"></i> </a>
                 <i class="fa fa-bell fa-3x" aria-hidden="true"></i>
 
             </div>
@@ -300,13 +300,14 @@
                                             </div>
                                             <div class="modal-footer">
                                                 <div class="row">
-                                                    <div class="logomodalfooter">
+                                                    <a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#myModal25">Avis</a>
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    <div class="pull-left">
                                                         <a href="https://www.twitter.com/"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
                                                         <a href="https://www.facebook.com/"><i class="fa fa-facebook-official
                                                          fa-3x " aria-hidden="true"></i></a>
                                                     </div>
-                                                    <a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#myModal25">Avis</a>
-                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -486,7 +487,7 @@
                                                 <div class="modal-body">
                                                     <form action=mailto:votrenom@provider.com" method="post">
                                                         <div class="row">
-                                                            <div class="col-sm-offset-4 col-sm-4">
+                                                            <div class="col-sm-offset-2 col-sm-4">
                                                                 <label>
                                                                     <h3 class="text-center">Donner nous votre avis !</h3>
                                                                     <span>Email* : </span>
@@ -495,7 +496,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="row">
-                                                            <div class="col-sm-offset-4 col-sm-4">
+                                                            <div class="col-sm-offset-2 col-sm-4">
                                                                 <label>
                                                                     <span>Nom*  : </span>
                                                                     <input type="text" placeholder="Entrez votre nom" name="name" id="name" required autofocus>
@@ -503,7 +504,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="row">
-                                                            <div class="col-sm-offset-4 col-sm-4">
+                                                            <div class="col-sm-offset-2 col-sm-4">
                                                                 <label>
                                                                     <span>Prenom: </span>
                                                                     <input type="text" placeholder="Entrez votre prénom" name="prenom" id="name" >
@@ -511,16 +512,32 @@
                                                             </div>
                                                         </div>
                                                         <div class="row">
-                                                            <div class="col-sm-offset-4 col-sm-4">
+                                                            <div class="col-sm-offset-2 col-sm-4">
+                                                                <div class="radio">
+                                                                    <label>
+                                                                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                                                        <p class="radiotext">Oui</p>
+                                                                    </label>
+                                                                </div>
+                                                                <div class="radio">
+                                                                    <label>
+                                                                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                                                        <p class="radiotext">Non</p>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-offset-1 col-sm-4">
                                                                 <label>
                                                                     <span>Contenu*:</span>
-                                                                    <textarea name="monmessage" id="monmessage" rows="4" cols="30" required></textarea>
+                                                                    <textarea name="monmessage" id="monmessage" rows="6" cols="55" required></textarea>
                                                                 </label><br/>
                                                             </div>
                                                         </div>
                                                         <div class="row">
-                                                            <div class="col-sm-offset-4 col-sm-4">
-                                                                <button type="button" class="btn btn-success">Envoyer</button>
+                                                            <div class="col-sm-offset-5">
+                                                                <button type="button" class="btn btn-success ">Envoyer</button>
                                                             </div>
                                                         </div>
                                                     </form>
