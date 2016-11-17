@@ -9,7 +9,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/")
+     * @Route("/index", name="index")
      */
     public function indexAction()
     {
@@ -46,6 +46,14 @@ class DefaultController extends Controller
     {
         return $this->render('FrontBundle:Default:soumettre.html.twig');
     }
+
+	/**
+	 * @Route("/rebours", name="rebours")
+	 */
+	public function reboursAction()
+	{
+		return $this->render('Front:Default:rebours');
+	}
 
 
 

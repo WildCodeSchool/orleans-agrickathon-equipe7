@@ -1,12 +1,24 @@
 
-
-#recherche {
-    text-align: center;
-}
-
 p.titre {
     font-weight: bold;
     font-size: 25px;
+}
+
+#recherche{
+    text-align: right;
+
+}
+.logo{
+    height:95%;
+    width: 95%;
+
+}
+.imagetitre{
+    height:100%;
+    width: 100%;
+}
+body{
+    background-color: #F2F2F2;
 }
 
 footer{
@@ -27,4 +39,12 @@ div.bordure {
 }
 .imagefooter{
     padding-left:130px;
+}
+
+.tuile {
+    height: 280px;
+}
+
+.thumbnail{
+    background-color: lightgrey;
 }
