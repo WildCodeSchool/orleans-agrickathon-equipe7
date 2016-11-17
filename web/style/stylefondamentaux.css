@@ -1,14 +1,14 @@
 
 p.titre {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 p {
     text-align: center;
     text-align:justify;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 h4 {
@@ -90,6 +90,9 @@ h1 {
     font-weight: bold;
     color: white;
     text-align: center;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .modal-content {
