@@ -107,11 +107,9 @@ h1 {
 }
 
 
-img {
-
-.logomodalfooter{
+.logomodalfooter {
     text-align: left;
-
+}
 .vignette{
 
     height: 150px;
@@ -119,6 +117,6 @@ img {
 .icone{
     color: black;
 }
-#optionsRadios2{
+#optionsRadios2 {
     padding-top: 5px;
 }
